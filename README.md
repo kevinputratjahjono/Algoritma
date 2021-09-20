@@ -1,1 +1,2 @@
 # Algoritma
+buat tugas tugas
