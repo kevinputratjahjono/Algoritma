@@ -1,2 +1,0 @@
-# Algoritma
-buat tugas tugas
