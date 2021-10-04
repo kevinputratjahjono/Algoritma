@@ -1,0 +1,25 @@
+"""
+Created on Mon Oct  4 13:06:54 2021
+
+@author: kevin putra tjahjono
+NIM: 065.002.100.020
+"""
+
+print ("mengetahui jenis dari suatu segitiga dengan berdasarkan panjang sisi yang diberikan")
+
+A = int(input("Panjang sisi A = "))
+B = int(input("Panjang sisi B = "))
+C = int(input("Panjang sisi C = "))
+
+if (A == B == C):
+    print("ini merupakan segitiga sama sisi")
+    
+elif (A == B or B == C or C == A):
+    print("ini merupakan segitiga sama kaki")
+    
+else:
+    if (A + B <= C) or (A + C <= B) or (B + C <= A):
+        print("ini bukan merupakan segitiga")
+        
+    else:
+        print("ini merupakan segitiga sembarang")
