@@ -1,0 +1,12 @@
+"""
+Created on Tue Sep 21 10:15:34 2021
+
+@author: kevin putra tjahjono
+NIM: 065.002.100.020
+"""
+
+n = int(input("Mau berapa banyak: "))
+for baris in range (n,0,-1):
+    for kolom in range (1, baris+1):
+        print(baris, end="")
+    print()
