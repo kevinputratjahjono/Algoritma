@@ -11,27 +11,27 @@ jawab = "ya"
 
 
 while(jawab == "ya"):
-    inputbulan = int(input("masukan bulan nya: "))
-    inputtahun = int(input("masukan tahun nya: "))
+    bulan = int(input("masukan bulan nya: "))
+    tahun = int(input("masukan tahun nya: "))
     jawab = str(input("confirm? : "))
 
     
        
     def hitung_bulan():
     
-      if(inputbulan >= 13 or inputbulan <= 0):
-          print("INVALID data")
-          
-      elif(inputbulan == 1  or inputbulan == 3 or inputbulan == 5 
-           or inputbulan == 7 or inputbulan == 8 
-           or inputbulan == 10 or inputbulan == 12):
+      if(bulan == 1  or bulan == 3 or bulan == 5 
+           or bulan == 7 or bulan == 8 
+           or bulan == 10 or bulan == 12):
     	     print("Hari = 31")
+
           
+      elif(bulan >= 13 or bulan <= 0):
+          print("INVALID data")          
       
            
-      elif (inputbulan == 2):
+      elif (bulan == 2):
       
-        if(inputtahun % 4 == 0 and inputbulan == 2):
+        if(tahun % 4 == 0 and bulan == 2):
           print("Hari = 29")
           return
         
