@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 29 13:44:51 2021
-
-@author: vinix
-"""
-
 def bubbleSort(array):
     n = len(array)
  
